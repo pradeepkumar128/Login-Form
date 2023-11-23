@@ -1,41 +1,47 @@
-.container{
+
+.container {
      justify-content: center;
      display: flex;
      margin-top: 120px;
 }
 
-.mainBox{
+.mainBox {
      border: 1px solid black;
-    text-align: center;
-    width: 300px;  
-    border-radius: 20px; 
-    
+     text-align: center;
+     width: 300px;
+     border-radius: 20px;
+
 }
 
 
-.profileBox img{
+.profileBox img {
      height: 50px;
-     
+
 }
-.profileimg{
+
+.profileimg {
      border: 1px solid black;
      border-radius: 50px;
      width: fit-content;
      margin-top: -26px;
      background: #ffff;
 }
-.profileimg:hover{
+
+.profileimg:hover {
      background-color: black;
 }
 
-input[type="text"] ,input[type="email"],input[type="password"]{
+input[type="text"],
+input[type="email"],
+input[type="password"] {
      border: none;
-    outline: none;
-    border-bottom: 1px solid black;
-    padding: 0px 15px;
-    font-size: 14px;
-    font-family: vardana;
+     outline: none;
+     border-bottom: 1px solid black;
+     padding: 0px 15px;
+     font-size: 14px;
+     font-family: vardana;
 }
+
 .subbtn {
      margin: 20px 0px;
      padding: 6px 23px;
@@ -46,4 +52,4 @@ input[type="text"] ,input[type="email"],input[type="password"]{
      color: #fff;
      font-family: vardana;
      text-transform: uppercase;
- }
+}
